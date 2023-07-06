@@ -1,0 +1,47 @@
+							Boolean Equation and Truth Table for Prime Number Detector
+
+										a : First Digit
+
+										b : Second Digit 
+
+										c : Third Digit
+
+										d : Fourth Digit
+
+X = ( ( ! a ) && ( ! b ) && ( c ) ) || ( ( ! a ) && ( b ) && ( d ) ) || ( ( b ) && ( ! c ) && ( d ) ) || ( ( a ) && ( ! b ) && ( c ) && ( d ) )
+
+↑↓	↑↓	↑↓	↑↓	↑↓
+
+a	b	c	d	X
+
+0	0	0	0	0
+
+0	0	0	1	0
+
+0	0	1	0	1
+
+0	0	1	1	1
+
+0	1	0	0	0
+
+0	1	0	1	1
+
+0	1	1	0	0
+
+0	1	1	1	1
+
+1	0	0	0	0
+
+1	0	0	1	0
+
+1	0	1	0	0
+
+1	0	1	1	1
+
+1	1	0	0	0
+
+1	1	0	1	1
+
+1	1	1	0	0
+
+1	1	1	1	0

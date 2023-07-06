@@ -1,0 +1,47 @@
+							Boolean Equation and Truth Table for Fibonacci Number detector
+
+										a : First digit
+
+										b : Second digit
+
+										c : Third digit
+
+										d : Fourth digit
+
+				X = ( ( ! a ) && ( ! b ) ) || ( ( b ) && ( ! c ) && ( d ) ) || ( ( ! b ) && ( ! c ) && ( ! d ) )
+
+↑↓	↑↓	↑↓	↑↓	↑↓
+
+a	b	c	d	X
+
+0	0	0	0	1
+
+0	0	0	1	1
+
+0	0	1	0	1
+
+0	0	1	1	1
+
+0	1	0	0	0
+
+0	1	0	1	1
+
+0	1	1	0	0
+
+0	1	1	1	0
+
+1	0	0	0	1
+
+1	0	0	1	0
+
+1	0	1	0	0
+
+1	0	1	1	0
+
+1	1	0	0	0
+
+1	1	0	1	1
+
+1	1	1	0	0
+
+1	1	1	1	0
